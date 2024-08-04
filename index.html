@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mobile Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1 class="title">xyz.com</h1>
+    <section>
+      <h1>Mobile Phone Verification</h1>
+      <p class="description">Enter the 4-digit verification code that was sent to your phone number.</p>
+      <div class="inputs" id="inputs">
+        <input type="number" maxlength="1">
+        <input type="number" maxlength="1">
+        <input type="number" maxlength="1">
+        <input type="number" maxlength="1"> 
+      </div>
+      <button id="button" disabled>Verify Account</button>
+      <p class="resend">Don't receive code? <span onclick="genarateOTP()">Resend</span></p>
+    </section>
+  </main>
+  <div id="vew-otp"></div>
+  <h6 id="result-id"></h6>
+  <script src="main.js"></script>
+</body>
+
+</html>

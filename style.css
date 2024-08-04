@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+   background-color: #4678b4;
+   min-width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+main .title{
+color: #fff;  
+text-align: center;
+margin: 100px 10px;
+}
+
+section{
+  background-color: #fff;
+  margin: 5px;
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+section h1{
+  margin: 5px;
+}
+
+section .description{
+  color: gray;
+  margin: 5px 0;
+}
+
+section .inputs{
+  display: flex;
+  justify-content: center;
+}
+
+section input{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #dbe2ef;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+section button{
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  background-color: #142c4e;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+section button[disabled]{
+ background-color: gray;
+}
+section .resend{
+  margin: 5px;
+}
+section .resend span{
+  color: #142c4e;
+  font: bold;
+  cursor: pointer;
+}
+
+#vew-otp{
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  background-color: #8598ff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
