@@ -55,13 +55,26 @@ section input{
   height: 40px;
   margin: 5px;
   padding: 10px;
-  background-color: #dbe2ef;
+  background-color: #efdbdd;
   border: none;
   border-radius: 5px;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
 }
+
+/* For Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
 
 section button{
   margin: 10px;
